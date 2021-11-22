@@ -16,7 +16,8 @@ body {
 }
 
 .content {
-  max-width: 400px;
+  width: 400px;
+  max-width: 100%;
   background-color: #fff;
   text-align: center;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
@@ -117,4 +118,12 @@ button {
   letter-spacing: 1px;
   cursor: pointer;
   display: none;
+}
+
+
+@media (max-width: 414px) {
+  .content {
+    width: 320px;
+    padding: 15px;
+  }
 }
