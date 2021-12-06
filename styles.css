@@ -42,7 +42,7 @@ body {
 }
 
 form .field input {
-  width: 100%;
+  width: 80%;
   height: 100%;
   border: 1px solid lightgrey;
   border-radius: 5px;
